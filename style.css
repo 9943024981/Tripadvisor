@@ -32,7 +32,7 @@
     max-width: 1250px;
     width: 90%;
     margin: 0 auto;
-    
+    flex-wrap: wrap;
   }
 .menu-typ{
     width: 1220px;
@@ -119,6 +119,9 @@ margin-right: 80px;
     font-weight: 600;
     margin-right: 8px;
 }
+.ask-ai-btn:hover {
+    background-color: #f0f0f0;
+}
 
 .search-btn {
     background-color: #00aa6c; 
@@ -183,6 +186,7 @@ gap: 20px;
     height: 400px;
     border-radius: 20px;
     justify-content: center;
+     
 }
  .trip-expriences h1{
     font-size: 30px;
@@ -207,6 +211,10 @@ white-space: nowrap;
 width: fit-content;
 margin-top: 50px;
 }
+.book-now:hover {
+    background-color: #333;
+}
+
 /* --------------find things---- */
 
 /* .Find-things{
@@ -274,6 +282,7 @@ transform: scale(1.05);
 /* ------------------stpe-container-1--- */
 .stpe-container-1{
   position: relative;
+  flex-wrap: wrap;
 }
 
 .near h1{
@@ -296,6 +305,7 @@ transform: scale(1.05);
     width: 240px;
     height: auto;
 box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+flex-wrap: wrap;
 }
  
 
@@ -362,7 +372,8 @@ padding: 20px;
     justify-content: space-around;
     gap: 50px;
     border-radius: 10px;
-}
+flex-wrap: wrap;
+  }
 .last-img img{
     width: 700px;
     height: 400px;
