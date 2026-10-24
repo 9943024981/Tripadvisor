@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    
 }
 
 .gabarito-uniquifier {
@@ -9,6 +10,21 @@
   font-weight: weight;
   font-style: normal;
 }
+.travel-icon{
+  right: 20px;
+  gap: 10px;
+  padding: 0px;
+}
+/* .menu-typ,.menu-typ-1{
+  background-color: black;
+} */
+.menu-typ h1{
+      font-size: 60px;
+    margin-right: 350px;
+    margin-left: 20px;
+      
+    
+}
 .menu-container{
     font-size: 25px;
     padding: 10px;
@@ -16,17 +32,20 @@
     max-width: 1250px;
     width: 90%;
     margin: 0 auto;
-}
+    
+  }
 .menu-typ{
     width: 1220px;
     display: flex;
-    justify-content: space-between;
+    gap: 20px;
     position: sticky;
     top: 0;
     background-color: white;
-    z-index: 1000;
+   z-index: 100;
+    padding: 10px;
 align-items: center;
 text-align: center;
+margin-right: 80px;
 }
 .menu-typ h2{
     display: flex;
@@ -52,6 +71,14 @@ text-align: center;
     cursor: pointer;
     font-weight: 800px;
  }
+.plan-whith-btn:hover{
+    background-color: purple; 
+    color: white;
+} 
+.sign-in-btn:hover{
+    background-color: gray; 
+    color: white;
+}
 /* -----------search----- */
 .search-bar-container{
     margin-top: 60px;
@@ -130,12 +157,17 @@ text-align: center;
       
 }
 
+.Find-things{
+  position: relative;
+}
+
 /* --------trip---- */
 .trip-container{
     display: flex;
     margin-top: 70px;
     border: solid black;
     width: 90%;
+    margin-left: 50px;
     height: auto;
     padding: 20px;
     text-align: center;
@@ -201,6 +233,7 @@ margin-top: 50px;
     width: 100%;
     max-width: 1250px;
     margin: 0 auto;
+    position: relative;
     
 }
 .img-stpe-12 {
@@ -235,10 +268,14 @@ margin-top: 50px;
 
 transform: scale(1.05);
   transition: transform 0.3s ease;
-  background-color: rgba(0, 0, 0, 0.5);
+  
 }
  
 /* ------------------stpe-container-1--- */
+.stpe-container-1{
+  position: relative;
+}
+
 .near h1{
     font-size: 25px;
 
@@ -254,6 +291,7 @@ transform: scale(1.05);
  
 }
 .img-stpe-1{
+  position: relative;
     padding: 20px;
     width: 240px;
     height: auto;
@@ -518,4 +556,36 @@ margin-top: 50px;
 .social-icons a {
   color: #000;
   font-size: 18px;
+}
+.heart-icon{
+    position: absolute;
+left: 230px;
+top: 40px;
+    font-size: 24px;
+  color: white;
+  background-color:(0, 0, 0, 0.5);
+    cursor: pointer;
+    width: 140px;
+    heidht: 140px;
+    stroke: 2px solid white;
+    stroke-width: 2px;
+    
+}
+.heart-icon:hover,.heart-icon-1:hover{
+    color: red;
+    
+    cursor: pointer;
+}
+.heart-icon-1{
+ position: absolute;
+left: 170px;
+top: 40px;
+    font-size: 24px;
+  color: white;
+  background-color:noyne;
+    cursor: pointer;
+    width: 140px;
+    heidht: 140px;
+    stroke: 2px solid white;
+    stroke-width: 2px;
 }
